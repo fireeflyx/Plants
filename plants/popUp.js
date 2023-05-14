@@ -1,6 +1,7 @@
 let log_in = document.getElementById('log_in');
 let popUp = document.getElementById('popUp');
 let log_in_button = document.getElementById('log_in_button');
+let log_in_burger = document.getElementById('log_in_burger');
 
 function toggle_popUp() {
     popUp.classList.toggle('popUp_active')
@@ -19,6 +20,7 @@ function signOut(){
 }
 
 log_in.addEventListener('click', toggle_popUp);
+log_in_burger.addEventListener('click', toggle_popUp);
 log_in_button.addEventListener('click', () => {
     toggle_popUp();
     logIn();
