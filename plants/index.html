@@ -17,6 +17,24 @@
     <title>Plants</title>
 </head>
 <body>
+    <div class="popUp" id="popUp">
+        <div class="log-in-container">
+            <div class="log-in-form">
+                <div>
+                    <label for="email" class="log-in-label">E-mail:</label>
+                    <input type="text" name="" id="email" placeholder="e-mail" class="log-in-input">
+                </div>
+                <div>
+                    <label for="password" class="log-in-label">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="password" class="log-in-input">
+                </div>
+                <button class="log-in-button" id="log_in_button">Log in</button>
+            </div>
+            <div class="log-in-picture">
+                <img src="img/leafs.png" alt="leafs" class="log-in-img">
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="container">
             <div class="logo">
@@ -30,7 +48,7 @@
                     <li class="navigation-list-item"><a href="#service" class="navigation-link">Service</a></li>
                     <li class="navigation-list-item"><a href="#prices" class="navigation-link">Price</a></li>
                     <li class="navigation-list-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
-                    <li class="navigation-list-item"><a href="#login" class="navigation-link">Log in</a></li>
+                    <li class="navigation-list-item"><a href="#login" class="navigation-link" id="log_in">Log in</a></li>
                 </ul>
             </nav>
             <div class="burger">
@@ -220,6 +238,7 @@
             </ul>
         </div>
     </footer>
+    <script src="popUp.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
