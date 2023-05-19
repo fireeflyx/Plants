@@ -12,6 +12,7 @@ function logIn() {
         log_in.innerHTML = 'Sign out';
         log_in.removeEventListener('click', toggle_popUp);
         log_in.addEventListener('click', signOut);
+        alert('Такой пользователь не найден')
 }
 
 function signOut(){

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="windows-1251">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
-    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.jpeg">
+    <link rel="icon" type="image/png" href="img/favicon/favicon.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
@@ -16,17 +16,17 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Plants</title>
 </head>
-<body>
+<body id="body">
     <div class="popUp" id="popUp">
         <div class="log-in-container">
             <div class="log-in-form">
                 <div>
                     <label for="email" class="log-in-label">E-mail:</label>
-                    <input type="text" name="" id="email" placeholder="e-mail" class="log-in-input">
+                    <input type="text" name="" id="email" placeholder="адрес" class="log-in-input">
                 </div>
                 <div>
                     <label for="password" class="log-in-label">Password:</label>
-                    <input type="password" name="password" id="password" placeholder="password" class="log-in-input">
+                    <input type="text" name="password" id="password" placeholder="pasworд" class="log-in-input">
                 </div>
                 <button class="log-in-button" id="log_in_button">Log in</button>
             </div>
@@ -39,15 +39,15 @@
         <div class="container">
             <div class="logo">
                 <img src="img/logo_vector.svg" alt="logo">
-                <p class="logo-text">Plants</p>
+                <h1 class="logo-text">Plants</h1>
             </div>
             <nav class="navigation">
                 <ul class="navigation-list">
                     <li class="navigation-list-item"><a href="#home" class="navigation-link">Home</a></li>
-                    <li class="navigation-list-item"><a href="#about" class="navigation-link">About us</a></li>
-                    <li class="navigation-list-item"><a href="#service" class="navigation-link">Service</a></li>
+                    <li class="navigation-list-item"><a href="#service" class="navigation-link">About us</a></li>
+                    <li class="navigation-list-item"><a href="#about" class="navigation-link">Service</a></li>
                     <li class="navigation-list-item"><a href="#prices" class="navigation-link">Price</a></li>
-                    <li class="navigation-list-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
+                    <li class="navigation-list-item"><a href="#" class="navigation-link">Contacts</a></li>
                     <li class="navigation-list-item"><a href="#login" class="navigation-link" id="log_in">Log in</a></li>
                 </ul>
             </nav>
@@ -59,7 +59,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="menu">
             <ul class="menu-list">
                 <li class="menu-list-item"><a href="#home" class="navigation-link menu-link">Home</a></li>
@@ -72,7 +72,9 @@
         </div>
         <div class="wrapper-welcome">
             <div class="welcome-container">
-                <img src="img/leafs.png" alt="leafs" class="leafs">
+                <div>
+                <img src="img/leafs.png" alt="leafs" title="Potato" class="leafs">
+            </div>
                 <section class="welcome" id="home">
                     <h1 class="h1">We grow <i class="green">plants</i> and give you oxygen</h1>
                     <p class="p">
@@ -81,18 +83,6 @@
                     </p>
                     <button class="learn_more">learn more</button>
                 </section>
-            </div>
-        </div>
-        <div class="wrapper-about">
-            <div class="container">
-                <section class="about" id="about">
-                    <h2 class="h2 h2-about"><i class="green">We are</i> professional experienced <i class="green">gardeners</i></h2>
-                    <p class="about-paragraph">
-                        Our team of professionals is always ready to provide you with expert tips and advice on plant care. 
-                        We offer information on proper watering, lighting, temperature and other important aspects of caring for each type of plant. 
-                        Your satisfaction and success in growing plants is our main goal!</p>
-                </section>
-                <img src="img/houseplant_1.png" class="img-about" alt="house plant">
             </div>
         </div>
         <div class="wrapper-service">
@@ -130,8 +120,8 @@
                     <div class="card">
                         <img src="img/4.png" alt="Garden care" class="card_img">
                         <div class="card-text">
-                            <h3 class="card-header right-space">Planting</h3>
-                            <p class="card-description">Pest and Disease Management</p>
+                            <h3 class="card-header right-space">Lorem</h3>
+                            <p class="card-description">Lorem Ipsum is simply dummy text</p>
                         </div>
                     </div>
                     <div class="card">
@@ -149,6 +139,18 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="wrapper-about">
+            <div class="container">
+                <section class="about" id="about">
+                    <h2 class="h2 h2-about"><i class="green">We are</i> professional experienced <i class="green">gardeners</i></h2>
+                    <p class="about-paragraph">
+                        Our team of professionals is always ready to provide you with expert tips and advice on plant care. 
+                        We offer information on proper watering, lighting, temperature and other important aspects of caring for each type of plant. 
+                        Your satisfaction and success in growing plants is our main goal!</p>
+                </section>
+                <img src="img/houseplant_1.png" class="img-about" alt="house plant">
             </div>
         </div>
         <div class="wrapper-prices">

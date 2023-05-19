@@ -1,3 +1,6 @@
+body{
+    width: 101vw;
+}
 :root {
     --primary-color_1: #499A18;
     --primary-color_2: #E06733;
@@ -152,9 +155,9 @@ html {
 .h2 {
     margin: 27px 0 36px;
     width: 463px;
-    font-family: 'Inika';
     font-style: normal;
-    font-weight: 400;
+    /* font-family: 'Inika'; */
+    /* font-weight: 400; */
     font-size: 40px;
     line-height: 52px;
     color: var(--primary-color_2);
@@ -170,7 +173,7 @@ html {
     color: var(--text-color_2);
 }
 
-.wrapper-service {
+.wrapper-about {
     background-color: var(--bg-color);
 }
 
@@ -399,7 +402,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 95px;
+    margin-top: 250px;
     order: 1;
     width: 450px;
     height: 50px;
@@ -800,6 +803,7 @@ html {
 }
 
 .popUp {
+    backdrop-filter: blur(1px);
     position: fixed;
     z-index: 1;
     background-color: rgba(237, 242, 236, 0.75);
